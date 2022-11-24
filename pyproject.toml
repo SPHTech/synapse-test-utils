@@ -5,6 +5,8 @@ description = ""
 authors = ["thewesleyee <wesleyee@sph.com.sg>"]
 readme = "README.md"
 packages = [{include = "synapse_test_utils"}]
+repository = "https://github.com/SPHTech/synapse-test-utils.git"
+homepage = "https://github.com/SPHTech/synapse-test-utils.git"
 
 [tool.poetry.dependencies]
 python = "^3.10"
