@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "synapse-test-utils"
+name = "synapse-utils"
 version = "0.1.0"
 description = ""
 authors = ["thewesleyee <wesleyee@sph.com.sg>"]
 readme = "README.md"
-packages = [{include = "synapse_test_utils"}]
+packages = [{include = "synapse_utils"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
