@@ -9,8 +9,8 @@ packages = [{include = "synapse_test_utils"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 asyncio = "^3.4.3"
-autobahn = {version = "^22.4.2", extras = ["serialization"]} 
+autobahn = {version = "^22.4.2", extras = ["serialization"]}
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
