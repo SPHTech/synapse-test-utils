@@ -1,18 +1,17 @@
 [tool.poetry]
 name = "synapse-test-utils"
-version = "0.1.0"
+version = "v0.1.0"
 description = ""
 authors = ["thewesleyee <wesleyee@sph.com.sg>"]
 readme = "README.md"
-packages = [{include = "synapse_test_utils"}]
-repository = "https://github.com/SPHTech/synapse-test-utils.git"
-homepage = "https://github.com/SPHTech/synapse-test-utils.git"
+repository = "https://github.com/SPHTech/synapse-test-utils"
+homepage = "https://github.com/SPHTech/synapse-test-utils"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-asyncio = "^3.4.3"
 autobahn = {version = "^22.4.2", extras = ["serialization"]}
+asyncio = "^3.4.3"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
